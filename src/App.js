@@ -67,10 +67,10 @@ class App extends Component {
 
     const assignedClasses = [];
     if ( this.state.persons.length <= 2 ) {
-      assignedClasses.push(Person.red); // classes = ['red']
+      assignedClasses.push("red"); // classes = ['red']
     }
     if ( this.state.persons.length <= 1 ) {
-      assignedClasses.push(Person.bold); // classes = ['red', 'bold']
+      assignedClasses.push("bold"); // classes = ['red', 'bold']
     }
 
     return (
